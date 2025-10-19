@@ -1,3 +1,9 @@
+#INSTITUTO TECNOLOGICO DE SAN JUAN DEL RIO 
+#ESTRUCTURA DE DATOS 
+#UNIDAD 1
+#NOMBRE : ROCIO MOLINA MONROY 
+#-----------------------------------------------------------
+
 class Pila:
     def __init__(self):
         self.items = []
@@ -30,9 +36,9 @@ def parentesis_balanceados(expresion):
 def verificar_parentesis():
     expresion = input("Ingresa una expresión matemática: ")
     if parentesis_balanceados(expresion):
-        print("✅ Los paréntesis están balanceados")
+        print("Los paréntesis están balanceados")
     else:
-        print("❌ Los paréntesis NO están balanceados")
+        print("Los paréntesis NO están balanceados")
 
 
 verificar_parentesis()
